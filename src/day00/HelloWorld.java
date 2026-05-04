@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class HelloWorld {
     static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String inputString = scan.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        String inputString = scanner.nextLine();
 
         System.out.println("\nHello, World.");
         System.out.println(inputString);
 
-        scan.close();
+        scanner.close();
     }
 }
